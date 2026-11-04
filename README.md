@@ -15,9 +15,9 @@ Site statique (HTML/CSS/JS, sans build) du réseau d'artisans plombiers à Montp
 
 - **Nom de domaine** : les URL canoniques, le `sitemap.xml` et `robots.txt` utilisent l'adresse provisoire
   `https://plombier-urgence-expert-montpellier.netlify.app`. À remplacer par le vrai domaine.
-- **Mentions légales** (`mentions-legales/index.html`) : champs `[À COMPLÉTER]` (raison sociale, SIRET, assureur, médiateur).
+- **Mentions légales** (`mentions-legales/index.html`) : éditeur SOS RENOV renseigné ; restent `[À COMPLÉTER]` : TVA intracommunautaire, assureur, médiateur.
 - **Suivi Google** : Google Tag Manager, Google Ads et la validation Search Console ne sont pas installés
   (identifiants propres à ce site à ajouter).
 - **Formulaires** : envoyés via FormSubmit vers artisanmorbihannais@gmail.com ; un e-mail d'activation FormSubmit sera envoyé
   au premier envoi depuis ce site. Pour utiliser une autre boîte, remplacer cette adresse dans les `action="https://formsubmit.co/..."`.
-- **Téléphone** : 06 76 22 52 40 (à changer partout si un numéro dédié à Montpellier est utilisé).
+- **Téléphone** : 06 00 00 00 00 est un numéro PROVISOIRE : changer `PHONE`/`TEL` puis remplacer partout.
