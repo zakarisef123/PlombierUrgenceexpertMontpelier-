@@ -1,13 +1,14 @@
 # Teddy-ets
 
-Site statique (HTML/CSS/JS, sans build) du réseau d'artisans plombiers à Montpellier et dans ses environs (Hérault, 34).
+Site statique (HTML/CSS/JS, sans build) du réseau d'artisans plombiers Teddy-ets dans tout l'Hérault (34).
 
 ## Structure
 
 - `index.html` : accueil
 - `urgence-plombier/`, `prestations/` et une page par prestation (fuite, débouchage, chauffe-eau, sanitaire, dégât des eaux, salle de bain, assainissement)
-- `zones-intervention/` et une page par secteur : Montpellier, Lattes & littoral, Castelnau-le-Lez & nord,
-  Saint-Jean-de-Védas & ouest, Mauguio & Lunel, Sète & bassin de Thau
+- `zones-intervention/` et une page par secteur (tout l'Hérault, 34) : Montpellier, Lattes & littoral,
+  Castelnau-le-Lez & nord, Saint-Jean-de-Védas & ouest, Mauguio & Lunel, Sète & bassin de Thau, Béziers & Biterrois,
+  Agde & Pézenas, Clermont-l'Hérault & Lodève, Ganges & Pic Saint-Loup, Bédarieux & Haut-Languedoc
 - `notre-reseau/`, `realisations/`, `faq/`, `contact/`, `merci/`, mentions légales et confidentialité
 - `assets/app.css` et `assets/app.js` : styles et scripts communs
 
