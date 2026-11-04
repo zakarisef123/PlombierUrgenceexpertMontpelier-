@@ -1,4 +1,4 @@
-# Plombier Urgence Expert Montpellier
+# Teddy-ets
 
 Site statique (HTML/CSS/JS, sans build) du réseau d'artisans plombiers à Montpellier et dans ses environs (Hérault, 34).
 

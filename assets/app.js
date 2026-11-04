@@ -1,4 +1,4 @@
-/* Plombier Urgence Expert Montpellier — scripts du site */
+/* Teddy-ets — scripts du site */
 (function () {
   "use strict";
 
