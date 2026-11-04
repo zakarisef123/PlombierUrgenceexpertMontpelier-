@@ -20,4 +20,4 @@ Site statique (HTML/CSS/JS, sans build) du réseau d'artisans plombiers à Montp
   (identifiants propres à ce site à ajouter).
 - **Formulaires** : envoyés via FormSubmit vers sos.renov10@gmail.com ; un e-mail d'activation FormSubmit sera envoyé
   au premier envoi depuis ce site. Pour utiliser une autre boîte, remplacer cette adresse dans les `action="https://formsubmit.co/..."`.
-- **Téléphone** : 06 00 00 00 00 est un numéro PROVISOIRE : changer `PHONE`/`TEL` puis remplacer partout.
+- **Téléphone** : 07 54 86 49 39 (constantes `PHONE`/`TEL`).
