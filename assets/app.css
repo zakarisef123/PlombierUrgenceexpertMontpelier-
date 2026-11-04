@@ -277,9 +277,8 @@ body.menu-open{overflow:hidden;}
 .insurers-title{max-width:760px; margin-bottom:2rem;}
 .insurers-title p{color:var(--mute);}
 .insurers-grid{display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem;}
-.insurer{display:flex; align-items:center; justify-content:center; background:var(--paper); border:1px solid var(--line); border-radius:var(--r); width:calc(33.33% - .34rem); height:64px; padding:.6rem;}
-.insurer img{max-height:38px; max-width:100%; width:auto; object-fit:contain; filter:grayscale(1); opacity:.75; transition:.2s;}
-.insurer:hover img{filter:none; opacity:1;}
+.insurer{display:flex; align-items:center; justify-content:center; background:var(--paper); border:1px solid var(--line); border-radius:var(--r); width:calc(50% - .25rem); height:96px; padding:.9rem;}
+.insurer img{max-height:64px; max-width:100%; width:auto; object-fit:contain;}
 .insurers-note{text-align:center; margin-top:1rem; font-size:.85rem; color:var(--mute); font-weight:600;}
 
 /* devis / contact */
@@ -471,7 +470,7 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
 /* ---------- responsive ---------- */
 @media (min-width:560px){
   .assure-grid{grid-template-columns:1fr 1fr; column-gap:1.5rem;}
-  .insurer{width:132px;}
+  .insurer{width:190px;}
   .works-grid{grid-template-columns:1fr 1fr;}
   .f-row.cols-2{grid-template-columns:1fr 1fr;}
   .gestures{grid-template-columns:1fr 1fr;}
