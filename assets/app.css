@@ -152,6 +152,7 @@ body.menu-open{overflow:hidden;}
 .services-block{padding:4.4rem 0; background:var(--sand);}
 .services{display:grid; gap:1.2rem; counter-reset:svc;}
 .service{counter-increment:svc; position:relative; display:grid; grid-template-columns:1fr; background:var(--paper); border:1px solid var(--line); border-radius:var(--r); overflow:hidden; transition:border-color .2s, transform .2s;}
+.services > .service:last-child:nth-child(odd){grid-column:1/-1;}
 .service:hover{border-color:var(--sun); transform:translateY(-3px);}
 .service-img{width:100%; aspect-ratio:16/9; object-fit:cover;}
 .service-body{padding:1.4rem 1.4rem 1.5rem; display:flex; flex-direction:column;}
@@ -532,6 +533,7 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
   .jumps{grid-template-columns:repeat(3,1fr);}
   .services{grid-template-columns:1fr 1fr;}
   .service{grid-template-columns:42% 1fr;}
+  .services > .service:last-child:nth-child(odd){grid-template-columns:21% 1fr;}
   .service-img{height:0; min-height:100%; aspect-ratio:auto;}
   .footer-grid{grid-template-columns:1.4fr 1fr 1fr 1fr;}
 }
@@ -541,3 +543,4 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
   .logo img{width:40px; height:40px;}
   .nav-toggle span{display:none;}
 }
+.services > .service:last-child:nth-child(odd) .service-actions{max-width:440px;}

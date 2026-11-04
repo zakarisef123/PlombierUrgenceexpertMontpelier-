@@ -5,7 +5,7 @@ Site statique (HTML/CSS/JS, sans build) du réseau d'artisans plombiers à Montp
 ## Structure
 
 - `index.html` : accueil
-- `urgence-plombier/`, `prestations/` et une page par prestation (fuite, débouchage, chauffe-eau, sanitaire, dégât des eaux, salle de bain)
+- `urgence-plombier/`, `prestations/` et une page par prestation (fuite, débouchage, chauffe-eau, sanitaire, dégât des eaux, salle de bain, assainissement)
 - `zones-intervention/` et une page par secteur : Montpellier, Lattes & littoral, Castelnau-le-Lez & nord,
   Saint-Jean-de-Védas & ouest, Mauguio & Lunel, Sète & bassin de Thau
 - `notre-reseau/`, `realisations/`, `faq/`, `contact/`, `merci/`, mentions légales et confidentialité
