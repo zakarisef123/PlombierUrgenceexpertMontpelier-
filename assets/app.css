@@ -61,11 +61,11 @@ button{font:inherit;}
 .topbar.scrolled{box-shadow:0 8px 24px -12px rgba(15,32,58,.35);}
 .topbar-row{display:flex; align-items:center; justify-content:space-between; gap:1rem; height:var(--head-h);}
 .logo{display:flex; align-items:center; gap:.7rem; text-decoration:none; min-width:0;}
-.logo img{width:46px; height:46px; flex-shrink:0;}
+.logo img{width:56px; height:auto; flex-shrink:0;}
 .logo-txt{display:flex; flex-direction:column; line-height:1; min-width:0;}
 .logo-txt strong{font-family:"Archivo",sans-serif; font-weight:900; font-size:1.35rem; text-transform:uppercase; letter-spacing:.01em; white-space:nowrap;}
 .logo-txt strong span{color:var(--sun-deep);}
-.logo-txt small{font-size:.66rem; font-weight:700; text-transform:uppercase; letter-spacing:.2em; color:var(--mute); margin-top:.35rem;}
+.logo-txt small{white-space:nowrap; font-size:.66rem; font-weight:700; text-transform:uppercase; letter-spacing:.2em; color:var(--mute); margin-top:.35rem;}
 .menu{display:none; align-items:center; gap:.2rem;}
 .menu > a,.menu-drop > a{white-space:nowrap; display:inline-flex; align-items:center; gap:.35rem; padding:.55rem .75rem; text-decoration:none; font-weight:700; font-size:.88rem; color:var(--ink); border-radius:var(--r);}
 .menu > a:hover,.menu-drop > a:hover{background:var(--sand);}
@@ -420,7 +420,7 @@ body.menu-open{overflow:hidden;}
 .footer-call p span{color:var(--sun);}
 .footer-grid{display:grid; gap:2rem; padding:2.8rem 1.25rem 2rem;}
 .footer-brand{display:flex; align-items:center; gap:.7rem; margin-bottom:1rem; color:#fff; text-decoration:none;}
-.footer-brand img{width:42px; height:42px;}
+.footer-brand img{width:52px; height:auto;}
 .footer-brand strong small{display:block; font-family:"DM Sans",sans-serif; font-weight:600; text-transform:none; font-size:.75rem; color:#a5b9d0; margin-top:.2rem;}
 .footer-brand strong{font-family:"Archivo",sans-serif; font-weight:900; text-transform:uppercase; font-size:.95rem; line-height:1.15;}
 .footer-about{max-width:340px; line-height:1.6;}
@@ -543,7 +543,8 @@ dialog.viewer p{color:#fff; text-align:center; margin:.8rem 0 0; font-weight:600
 
 @media (max-width:420px){
   .logo-txt strong{font-size:1.15rem;}
-  .logo img{width:40px; height:40px;}
+  .logo img{width:44px;}
+  .logo-txt small{letter-spacing:.08em; font-size:.6rem;}
   .nav-toggle span{display:none;}
 }
 .services > .service:last-child:nth-child(odd) .service-actions{max-width:440px;}
